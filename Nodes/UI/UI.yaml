@@ -245,872 +245,126 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/CorsoFTOptix_VR_17_06_2025@BrowseName"
-  - Name: DataGrid1
-    Type: DataGrid
+  - Name: NavigationPanel1
+    Type: NavigationPanel
     Children:
-    - Name: Model
-      Type: NodePointer
-      DataType: NodeId
-      Value: "/Objects/CorsoFTOptix_VR_17_06_2025/DataStores/EmbeddedDatabase1"
-      Children:
-      - Name: ItemKind
-        Type: PropertyType
-        DataType: NodeId
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-    - Name: Query
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "SELECT * FROM \"DataLogger1\""
-    - Name: Columns
+    - Name: Panels
       Type: BaseObjectType
       Children:
-      - Name: LocalTimestamp
-        Type: DataGridColumn
+      - Name: Panel1
+        Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
-        - Name: Width
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: HeaderAlignment
-          Type: BaseDataVariableType
-          DataType: TextHorizontalAlignment
-        - Name: ContentAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-        - Name: OrderBy
-          Type: BaseDataVariableType
-          DataType: NodePath
-          Value: "{Item}/LocalTimestamp"
-        - Name: DataItemTemplate
-          Type: DataGridLabelItemTemplate
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/UI/Screens/Screen1"
           Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/LocalTimestamp"
-      - Name: Variable1
-        Type: DataGridColumn
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Variable1"}
-        - Name: Width
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: HeaderAlignment
-          Type: BaseDataVariableType
-          DataType: TextHorizontalAlignment
-        - Name: ContentAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-        - Name: OrderBy
-          Type: BaseDataVariableType
-          DataType: NodePath
-          Value: "{Item}/Variable1"
-        - Name: DataItemTemplate
-          Type: DataGridLabelItemTemplate
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/UI/Screens/Screen2"
           Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Variable1"
-      - Name: Variable2
-        Type: DataGridColumn
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel3
+        Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Variable2"}
-        - Name: Width
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: HeaderAlignment
-          Type: BaseDataVariableType
-          DataType: TextHorizontalAlignment
-        - Name: ContentAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-        - Name: OrderBy
-          Type: BaseDataVariableType
-          DataType: NodePath
-          Value: "{Item}/Variable2"
-        - Name: DataItemTemplate
-          Type: DataGridLabelItemTemplate
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/UI/Screens/Screen3"
           Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Variable2"
-      - Name: Variable3
-        Type: DataGridColumn
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel4
+        Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Variable3"}
-        - Name: Width
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: HeaderAlignment
-          Type: BaseDataVariableType
-          DataType: TextHorizontalAlignment
-        - Name: ContentAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-        - Name: OrderBy
-          Type: BaseDataVariableType
-          DataType: NodePath
-          Value: "{Item}/Variable3"
-        - Name: DataItemTemplate
-          Type: DataGridLabelItemTemplate
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/UI/Screens/Screen4"
           Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}/Variable3"
-    - Name: SelectedItem
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/UI/Screens/Screen5"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
       Type: NodePointer
-      DataType: NodeId
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-    - Name: UISelectedItem
-      Type: BaseDataVariableType
       DataType: NodeId
       AccessLevel: Read
-    - Class: Reference
-      Target: ns=3;i=504
-      Direction: Forward
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 560.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 520.0
-    - Name: Item
-      Type: Alias
-      DataType: NodeId
       Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: SortColumn
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
       Type: BaseDataVariableType
-      DataType: NodeId
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../Columns/Timestamp@NodeId"
-    - Name: SortOrder
-      Type: BaseDataVariableType
-      DataType: SortOrderEnum
-      Value: 1
-    - Name: AutoRefreshTime
-      Type: BaseDataVariableType
-      DataType: Duration
-      ModellingRule: Optional
-      Value: "0:00:00:01.0000000"
-  - Name: Trend1
-    Type: Trend
-    Children:
-    - Name: Pens
-      Type: BaseObjectType
-      Children:
-      - Name: Variable1
-        Type: TrendPen
-        DataType: BaseDataType
-        Children:
-        - Name: Thickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Enabled
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: Thresholds
-          Type: BaseObjectType
-        - Name: Color
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#1b5583"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../Model/VariablesToLog/Variable1/LastValue"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-        - Name: ns=3;YAxis
-          Type: ValueAxis
-          Children:
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -80.0
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: 100.0
-          - Name: AutoScale
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: Interactive
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: Position
-            Type: BaseDataVariableType
-            DataType: HorizontalPositionEnum
-            Value: 1
-      - Name: Variable2
-        Type: TrendPen
-        DataType: BaseDataType
-        Children:
-        - Name: Thickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Enabled
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: Thresholds
-          Type: BaseObjectType
-        - Name: Color
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#f3da08"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../Model/VariablesToLog/Variable2/LastValue"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Variable3
-        Type: TrendPen
-        DataType: BaseDataType
-        Children:
-        - Name: Thickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: -1.0
-        - Name: Enabled
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: Thresholds
-          Type: BaseObjectType
-        - Name: Color
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ff7514"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../Model/VariablesToLog/Variable3/LastValue"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Variable4
-        Type: TrendPen
-        DataType: BaseDataType
-        Children:
-        - Name: Thickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 4.0
-        - Name: Enabled
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: Thresholds
-          Type: BaseObjectType
-          Children:
-          - Name: Threshold1
-            Type: TrendThreshold
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 20.0
-            - Name: Thickness
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 5.0
-            - Name: Color
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ff0000"
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Model/TagsToLog/Variable4"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
+      DataType: Int32
     - Class: Reference
-      Target: ns=3;i=1129
+      Target: ns=3;i=1181
       Direction: Forward
-    - Name: XAxis
-      Type: DateTimeAxis
-      Children:
-      - Name: Follow
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
-      - Name: Window
-        Type: BaseDataVariableType
-        DataType: Duration
-        Value: "0:00:00:05.0000000"
-      - Name: Interactive
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
-      - Name: Time
-        Type: BaseDataVariableType
-        DataType: DateTime
-    - Name: YAxis
-      Type: ValueAxis
-      Children:
-      - Name: Position
-        Type: BaseDataVariableType
-        DataType: HorizontalPositionEnum
-      - Name: MinValue
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -100.0
-      - Name: MaxValue
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: 100.0
-      - Name: AutoScale
-        Type: BaseDataVariableType
-        DataType: Boolean
-      - Name: Interactive
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
-    - Name: LegendVisible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
     - Class: Reference
-      Target: ns=3;i=1201
-      Direction: Forward
-    - Name: TimeRanges
-      Type: BaseObjectType
-    - Class: Reference
-      Target: ns=3;i=1209
+      Target: ns=3;i=1183
       Direction: Forward
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 580.0
+      Value: 300.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 450.0
-    - Name: ReferenceTimeZone
-      Type: BaseDataVariableType
-      DataType: ReferenceTimeZone
-      ModellingRule: Optional
-      Value: 1
-    - Name: LeftMargin
+      Value: 300.0
+    - Name: HorizontalAlignment
       Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 640.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: Model
-      Type: NodePointer
-      DataType: NodeId
-      Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Loggers/DataLogger1"
-      Children:
-      - Name: ItemKind
-        Type: PropertyType
-        DataType: NodeId
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-    - Name: Mode
-      Type: BaseDataVariableType
-      DataType: TrendModeEnum
-      ModellingRule: Optional
-  - Name: Sparkline1
-    Type: Sparkline
-    Children:
-    - Name: PenValue
-      Type: BaseDataVariableType
-      DataType: BaseDataType
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Loggers/DataLogger1/VariablesToLog/Variable1/LastValue"
-    - Name: TimeWindow
-      Type: BaseDataVariableType
-      DataType: Duration
-      Value: "0:00:00:10.0000000"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1200.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 200.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 760.0
-    - Name: RefreshTime
-      Type: BaseDataVariableType
-      DataType: Duration
-      ModellingRule: Optional
-      Value: "0:00:00:00.1000000"
-  - Name: LinearGauge1
-    Type: LinearGauge
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Model/TagsToLog/Variable1"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: WarningZones
-      Type: BaseObjectType
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 40.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: ValueChangeBehaviour
-      Type: BaseDataVariableType
-      DataType: ValueChangeBehaviour
-      ModellingRule: Optional
-      Value: 1
-  - Name: LinearGauge2
-    Type: LinearGauge
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Model/TagsToLog/Variable2"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: WarningZones
-      Type: BaseObjectType
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 208.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 332.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: ValueChangeBehaviour
-      Type: BaseDataVariableType
-      DataType: ValueChangeBehaviour
-      ModellingRule: Optional
-      Value: 1
-  - Name: LinearGauge3
-    Type: LinearGauge
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Model/TagsToLog/Variable3"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: WarningZones
-      Type: BaseObjectType
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: ValueChangeBehaviour
-      Type: BaseDataVariableType
-      DataType: ValueChangeBehaviour
-      ModellingRule: Optional
-      Value: 1
-  - Name: LinearGauge4
-    Type: LinearGauge
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/CorsoFTOptix_VR_17_06_2025/Model/TagsToLog/Variable4"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: MinValue
-      Type: BaseDataVariableType
-      DataType: Float
-    - Name: MaxValue
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 100.0
-    - Name: WarningZones
-      Type: BaseObjectType
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 240.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 900.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: ValueChangeBehaviour
-      Type: BaseDataVariableType
-      DataType: ValueChangeBehaviour
-      ModellingRule: Optional
-      Value: 1
-  - Name: Duration1
-    Type: DurationPicker
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Duration
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../Trend1/XAxis/Window"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 640.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 615.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 140.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 25.0
-  - Name: ToggleButton1
-    Type: ToggleButton
-    Children:
-    - Name: Active
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../Trend1/XAxis/Follow"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"realtime data"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 791.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 615.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 189.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 65.0
-  - Name: DateAndTime1
-    Type: DateTimePicker
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: DateTime
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../Trend1/XAxis/Time"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 640.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 655.0
-    - Name: InputFormat
-      Type: BaseDataVariableType
-      DataType: DateTimePickerInputFormatEnum
+      DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: Width
+    - Name: VerticalAlignment
       Type: BaseVariableType
-      DataType: Size
+      DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 140.0
-  - Name: Checkbox1
-    Type: CheckBox
-    Children:
-    - Name: Checked
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../Trend1/Pens/Variable1/Enabled"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Variable1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1030.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 640.0
+      Value: 3
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
+- File: ChangeUserForm/ChangeUserForm.yaml
+- File: UserEditor/UserEditor.yaml

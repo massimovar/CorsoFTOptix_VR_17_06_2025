@@ -6,9 +6,9 @@ Children:
   Type: DataLogger
   Children:
   - Name: SamplingMode
+    Id: g=cedfd4df9f117322eee9828eba721545
     Type: PropertyType
     DataType: SamplingModeEnum
-    Value: 1
   - Name: Store
     Type: NodePointer
     DataType: NodeId
