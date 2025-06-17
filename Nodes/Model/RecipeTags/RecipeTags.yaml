@@ -6,6 +6,7 @@ Children:
   Id: g=e1c225719b860b2be19f5f6b1918501c
   Type: BaseDataVariableType
   DataType: Int32
+  Value: 99
 - Name: Variable2
   Id: g=e7b29bdd310dd54990114e413e237771
   Type: BaseDataVariableType

@@ -311,7 +311,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputSuccessMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Change User successful"}
           - Name: Pair1
             Type: ValueMapPair
             ModellingRule: None
@@ -325,7 +325,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputErrorMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Authentication failed"}
           - Name: Pair2
             Type: ValueMapPair
             ModellingRule: None
@@ -353,7 +353,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputErrorMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Authentication failed"}
           - Name: Pair4
             Type: ValueMapPair
             ModellingRule: None
@@ -367,7 +367,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputErrorMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Authentication failed"}
           - Name: Pair5
             Type: ValueMapPair
             ModellingRule: None
@@ -381,7 +381,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputErrorMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Authentication failed"}
           - Name: Pair6
             Type: ValueMapPair
             ModellingRule: None
@@ -395,7 +395,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: None
-              Value: {"NamespaceIndex":7,"TextId":"ChangeUserFormOutputErrorMessage"}
+              Value: {"NamespaceIndex":7,"TextId":"Authentication failed"}
     - Name: ChangeUserFormOutputMessageLogic
       Type: NetLogic
       Children:

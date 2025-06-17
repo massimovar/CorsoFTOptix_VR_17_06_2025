@@ -6,6 +6,10 @@ using UAManagedCore;
 using FTOptix.OPCUAServer;
 using OpcUa = UAManagedCore.OpcUa;
 using FTOptix.Core;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
+using FTOptix.Modbus;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class UserEditorGroupsPanelLogic : BaseNetLogic

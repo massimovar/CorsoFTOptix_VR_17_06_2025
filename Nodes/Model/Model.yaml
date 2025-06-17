@@ -211,3 +211,47 @@ Children:
         Type: PropertyType
         DataType: UInt16
 - File: RecipeTags/RecipeTags.yaml
+- Name: Temperatura
+  Id: g=62496c9508be2ea0c4bc50ddd362b3a8
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../TemperaturaSulPLC"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: TemperaturaSulPLC
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: ColorePLC
+  Type: BaseDataVariableType
+  DataType: Int32

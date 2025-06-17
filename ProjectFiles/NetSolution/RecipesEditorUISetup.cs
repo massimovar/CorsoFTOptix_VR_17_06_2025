@@ -10,6 +10,10 @@ using FTOptix.NetLogic;
 using FTOptix.Recipe;
 using FTOptix.UI;
 using UAManagedCore;
+using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
+using FTOptix.Modbus;
+using FTOptix.OPCUAClient;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

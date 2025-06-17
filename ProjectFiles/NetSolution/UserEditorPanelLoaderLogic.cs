@@ -3,6 +3,10 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
+using FTOptix.Modbus;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class UserEditorPanelLoaderLogic : BaseNetLogic

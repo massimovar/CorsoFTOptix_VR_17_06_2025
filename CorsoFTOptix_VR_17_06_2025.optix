@@ -89,16 +89,40 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
+  23:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.2
+  24:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.2
+  25:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  26:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
+  27:
+   Uri: 'urn:FTOptix:OPCUAClient'
+   Module: FTOptix.OPCUAClient
+   Version: 2.0
+  28:
+   Uri: 'urn:FTOptix:OPCUAClient:Net'
+   Module: FTOptix.OPCUAClient.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 2542
-  Objects: 524
-  ObjectTypes: 18
-  Variables: 1980
+  TotalNodeCount: 2899
+  Objects: 590
+  ObjectTypes: 19
+  Variables: 2263
   VariableTypes: 0
   DataTypes: 0
-  Methods: 20
-  References: 67
+  Methods: 27
+  References: 186
   ReferenceTypes: 0
-  Files: 26
+  Files: 28
  Nodes:
  - File: Nodes/CorsoFTOptix_VR_17_06_2025.yaml

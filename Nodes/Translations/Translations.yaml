@@ -9,63 +9,110 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [56,2],
+    "Dimensions": [57,4],
     "Body": [
-     "","en-US",
-     "RecipesEditorStoreOfSchema","Store of schema",
-     "Save","Save",
-     "Delete","Delete",
-     "Load","Load",
-     "Apply","Apply",
-     "RecipeControllerRecipe","Recipe",
-     "RecipeControllerEmptyRecipeName","Recipe name is empty",
-     "RecipeControllerCreatedAndSaved","created and saved",
-     "RecipeControllerDeleted","deleted",
-     "RecipeControllerRecipeApplied","Recipe applied",
-     "RecipeControllerRecipeLoaded","Recipe loaded",
-     "RecipeControllerSaved","saved",
-     "RecipesEditorNotARecipe","is not a recipe",
-     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
-     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
-     "RecipesEditorRecipeNotFound","Recipe not found",
-     "RecipesEditorNotAStore","is not a store",
-     "RecipesEditorNotSet","is not set",
-     "RecipesEditorStore","Store",
-     "RecipesEditorNotFound","not found",
-     "RecipesEditorEditModelOfSchema","EditModel of schema",
-     "Confirm password","Confirm password",
-     "Password","Password",
-     "Change User","Change User",
-     "Old password","Old password",
-     "New password","New password",
-     "Change password","Change password",
-     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
-     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.",
-     "ChangeUserFormOutputSuccessMessage","Change User successful",
-     "ChangeUserFormOutputErrorMessage","Authentication failed",
-     "ChangeUserFormOutputPasswordExpired","Password expired",
-     "ChangePasswordFormSuccessMessage","Password changed successfully",
-     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
-     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
-     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
-     "ChangePasswordFormPasswordTooShortMessage","Password too short",
-     "ChangePasswordFormUserNotFoundMessage","User not found",
-     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match",
-     "Create","Create",
-     "Groups","Groups",
-     "EmptyUserList","No users in list",
-     "Name","Name",
-     "PasswordChangedTooRecently","Password changed too recently",
-     "Roles","Roles",
-     "Cancel","Cancel",
-     "Locale:","Locale:",
-     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username",
-     "UnableToGetUsers","Unable to get users",
-     "UsernameAlreadyExists","Username already exists",
-     "UserNotFound","User not found",
-     "PasswordAlreadyUsed","Password already used in the past",
-     "PasswordTooShort","Password too short",
-     "UnsupportedOperation","Unsupported operation",
-     "ChangesAppliedSuccessfully","Changes applied successfully"
+     "","en-US","it-IT","ru-RU",
+     "RecipesEditorStoreOfSchema","Store of schema","","",
+     "Save","Save","","",
+     "Delete","Delete","","",
+     "Load","Load","","",
+     "Apply","Apply","","",
+     "RecipeControllerRecipe","Recipe","","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","","",
+     "RecipeControllerCreatedAndSaved","created and saved","","",
+     "RecipeControllerDeleted","deleted","","",
+     "RecipeControllerRecipeApplied","Recipe applied","","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","","",
+     "RecipeControllerSaved","saved","","",
+     "RecipesEditorNotARecipe","is not a recipe","","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","","",
+     "RecipesEditorRecipeNotFound","Recipe not found","","",
+     "RecipesEditorNotAStore","is not a store","","",
+     "RecipesEditorNotSet","is not set","","",
+     "RecipesEditorStore","Store","","",
+     "RecipesEditorNotFound","not found","","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","","",
+     "Confirm password","Confirm password","","",
+     "Password","Password","","",
+     "Change User","Change User","","",
+     "Old password","Old password","","",
+     "New password","New password","","",
+     "Change password","Change password","","",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation","","",
+     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.","","",
+     "ChangeUserFormOutputSuccessMessage","Change User successful","","",
+     "ChangeUserFormOutputErrorMessage","Authentication failed","","",
+     "ChangeUserFormOutputPasswordExpired","Password expired","","",
+     "ChangePasswordFormSuccessMessage","Password changed successfully","","",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password","","",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used","","",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently","","",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short","","",
+     "ChangePasswordFormUserNotFoundMessage","User not found","","",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match","","",
+     "Create","Create","","",
+     "Groups","Groups","","",
+     "EmptyUserList","No users in list","","",
+     "Name","Name","","",
+     "PasswordChangedTooRecently","Password changed too recently","","",
+     "Roles","Roles","","",
+     "Cancel","Cancel","","",
+     "Locale:","Locale:","","",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","","",
+     "UnableToGetUsers","Unable to get users","","",
+     "UsernameAlreadyExists","Username already exists","","",
+     "UserNotFound","User not found","","",
+     "PasswordAlreadyUsed","Password already used in the past","","",
+     "PasswordTooShort","Password too short","","",
+     "UnsupportedOperation","Unsupported operation","","",
+     "ChangesAppliedSuccessfully","Changes applied successfully","","",
+     "hello world","hello world","ciao mondo","Привет, мир"
     ]
    }
+- Name: ImportAndExportTranslations
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+  - Class: Method
+    Name: ExportTranslations
+  - Class: Method
+    Name: ImportTranslations
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

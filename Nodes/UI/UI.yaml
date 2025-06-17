@@ -194,6 +194,7 @@ Children:
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
+    Value: 1
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -368,3 +369,4 @@ Children:
 - File: Keyboards/Keyboards.yaml
 - File: ChangeUserForm/ChangeUserForm.yaml
 - File: UserEditor/UserEditor.yaml
+- File: MieiWidget/MieiWidget.yaml

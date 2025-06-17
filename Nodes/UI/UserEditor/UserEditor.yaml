@@ -1468,7 +1468,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"NamespaceIndex":7,"TextId":"Cannot create user with empty username"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
@@ -1580,7 +1580,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"ChangesAppliedSuccessfully"}
+                  Value: {"NamespaceIndex":7,"TextId":"Changes applied successfully"}
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -2827,7 +2827,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: None
-                  Value: {"NamespaceIndex":7,"TextId":"CannotCreateUserWithEmptyUsername"}
+                  Value: {"NamespaceIndex":7,"TextId":"Cannot create user with empty username"}
               - Name: Pair2
                 Type: ValueMapPair
                 ModellingRule: None
