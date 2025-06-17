@@ -3529,12 +3529,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 646.0
+      Value: 480.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 415.0
+      Value: 340.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
