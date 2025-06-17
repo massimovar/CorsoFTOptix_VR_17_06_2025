@@ -29,16 +29,28 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 2.0
+  9:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 124
-  Objects: 72
+  TotalNodeCount: 376
+  Objects: 113
   ObjectTypes: 1
-  Variables: 51
+  Variables: 262
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 0
+  References: 22
   ReferenceTypes: 0
-  Files: 22
+  Files: 23
  Nodes:
  - File: Nodes/CorsoFTOptix_VR_17_06_2025.yaml

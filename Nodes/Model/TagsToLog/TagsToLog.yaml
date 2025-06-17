@@ -1,0 +1,15 @@
+Name: TagsToLog
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
